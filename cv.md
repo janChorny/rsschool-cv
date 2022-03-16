@@ -13,10 +13,12 @@ I learn Front-End Development in RSSchool
 *CSS
 *JavaScript
 *BEM
+*Figma
 *Wordpress
 *Git
 
 ##Code example:
+
 function rgb(r, g, b){
  
   if(r == 0) { r = Number(0).toString(16) + 0}
