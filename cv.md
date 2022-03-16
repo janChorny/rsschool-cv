@@ -1,24 +1,24 @@
 #**Jan Chorny**
 
-##Contacts:
-*Discord: JanChorny
-*E-mail: janchorny@tut.by
-*Tel: +375295124014
+##**Contacts:**
+* Discord: JanChorny
+* E-mail: janchorny@tut.by
+* Tel: +375295124014
 
-##About myself:
+##**About myself:**
 I learn Front-End Development in RSSchool
 
-##Skills:
-*HTML
-*CSS
-*JavaScript
-*BEM
-*Figma
-*Wordpress
-*Git
+##**Skills:**
+* HTML
+* CSS
+* JavaScript
+* BEM
+* Figma
+* Wordpress
+* Git
 
-##Code example:
-
+##**Code example:**
+```
 function rgb(r, g, b){
  
   if(r == 0) { r = Number(0).toString(16) + 0}
@@ -42,18 +42,19 @@ function rgb(r, g, b){
 
   return r + g + b
 };
+```
 
-##Work experience:
+##**Work experience:**
 _Freelance_
 
-##Education and courses:
+##**Education and courses:**
 1. Internet-Marketing (2019)
 2. HTML Academy (2020)
 3. JS, CSS, HTML video courses on YouTube channel FreelancerLifeStyle (2021)
 
-##Languages
-*Russian C2
-*Belarusian C2
-*English C2
-*German A2 (updating)
-*Spanish A1 (learning)
+##**Languages**
+* Russian C2
+* Belarusian C2
+* English C2
+* German A2 (updating)
+* Spanish A1 (learning)
