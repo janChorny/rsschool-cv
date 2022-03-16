@@ -5,17 +5,17 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="img/favicon.ico">
+	<link rel="icon" href="./img/favicon.ico">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="./css/style.css">
 	<title>CV</title>
 </head>
 
 <body>
-
+	<div class="container">
 		<header class="header">
-			<div class="header__container container">
+			<div class="header__container">
 				<nav class="header__menu menu">
 					<ul class="menu__list">
 						<li class="menu__item">
@@ -44,9 +44,14 @@
 						</li>
 					</ul>
 				</nav>
+				<div class="hamburger">
+					<div class="line line1"></div>
+					<div class="line line2"></div>
+					<div class="line line3"></div>
+				</div>
 				<div class="header__bottom">
 					<div class="header__image">
-						<img src="img/avatar.jpg" alt="avatar" width="200" height="250">
+						<img src="./img/avatar.jpg" alt="avatar" width="200" height="250">
 					</div>
 					<div class="header__description">
 						<h1 class="header__title">
@@ -61,13 +66,12 @@
 		</header>
 
 		<main class="main">
-			<div class="main__container container">
+			<div class="main__container">
 				<section class="about" id="about">
 					<h2 class="about__title _title">About myself</h2>
 					<p class="about__text">I study Front-End Development in RSSchool to get a new job and to update and
-						deepen
-						my knowledge, cause I've already studied a lot of things about Frontend, passed some courses and read
-						some books, but needed to summerize all about it.</p>
+						deepen my knowledge, I've passed some courses and read
+						some books, but need to summerize all I know about Front-End.</p>
 				</section>
 				<section class="contacts" id="contacts">
 					<h2 class="contacts__title _title">
@@ -84,30 +88,54 @@
 						Skills
 					</h2>
 					<ul class="skills__list">
-						<li class="skills__item">Wordpress</li>
 						<li class="skills__item">HTML</li>
 						<li class="skills__item">CSS</li>
+						<li class="skills__item">JavaScript</li>
 						<li class="skills__item">BEM</li>
+						<li class="skills__item">Photoshop / Figma</li>
+						<li class="skills__item">Wordpress</li>
+						<li class="skills__item">Git</li>
 					</ul>
 				</section>
 				<section class="code" id="code">
 					<h2 class="code__title _title">Code</h2>
-					<p class="code__text">
-						<code class="code__example">
-							function newMessage () {
-							alert('Hello, world');
-							}
-							newMessage();
-						</code>
-					</p>
+					<div class="code__text">
+						<pre>
+							<code class="code__example">
+function rgb(r, g, b){
+
+  if(r == 0) { r = Number(0).toString(16) + 0}
+  if(g == 0) { g = Number(0).toString(16)  + 0}
+  if(b == 0) { b = Number(0).toString(16)  + 0}
+
+  if(r > 255){r = 255}
+  if(r < 0){r = 0}
+  if(g > 255){g = 255}
+  if(g < 0){g = 0}
+  if(b > 255){b = 255}
+  if(b < 0){b = 0}
+
+  r = r.toString(16).toUpperCase()     
+  g = g.toString(16).toUpperCase() 
+  b = b.toString(16).toUpperCase()
+
+  if (r.length < 2){ r = 0 + r}
+  if (g.length < 2){ g = 0 + g}
+  if (b.length < 2){ b = 0 + b}
+
+  return r + g + b
+};
+							</code>
+						</pre>
+					</div>
 				</section>
 				<section class="projects" id="projects">
 					<h2 class="projects__title _title">
 						Projects
 					</h2>
 					<ul class="projects__list">
-						<li class="projects__item"><a href="https://github.com/janChorny/html-academy">HTML-Academy</a></li>
-						<li class="projects__item"><a href="https://cp37243.tmweb.ru/">Wodpress</a></li>
+						<li class="projects__item"><a href="https://github.com/janChorny">Github</a></li>
+						<li class="projects__item"><a href="https://www.codewars.com/users/janChorny">Codewars</a></li>
 					</ul>
 				</section>
 				<section class="courses" id="courses">
@@ -115,9 +143,10 @@
 						Courses
 					</h2>
 					<ol class="courses__list">
-						<li class="courses__item">HTML Academy</li>
-						<li class="courses__item">Internet-Marketing (2019)</li>
-						<li class="courses__item">JS, CSS, HTML video courses on YouTube channel FreelancerLifeStyle</li>
+						<li class="courses__item">Digital-Marketing (2019)</li>
+						<li class="courses__item">HTML Academy (2020)</li>
+						<li class="courses__item">JS, CSS, HTML video courses on YouTube channel FreelancerLifeStyle (2021)</li>
+						<li class="courses__item">RSSchool JS / FRONT-END Stage 0 (2022)</li>
 					</ol>
 				</section>
 				<section class="education" id="education">
@@ -125,7 +154,7 @@
 						Education
 					</h2>
 					<div class="education__text">
-						The Academy of Public Administration under the Aegis of the President of the Republic of Belarus
+						The Academy of Public Administration under the Aegis of the President of the Republic of Belarus (2007 - 2012)
 					</div>
 				</section>
 				<section class="languages" id="languages">
@@ -137,13 +166,14 @@
 						<li class="languages__item">Belarusian</li>
 						<li class="languages__item">English С2 (Proficient - EF SET)</li>
 						<li class="languages__item">German A1 (Anfänger)</li>
+						<li class="languages__item">Spanish A1 (Elementario)</li>
 					</ul>
 				</section>
 			</div>
 		</main>
 
 		<footer class="footer">
-			<div class="footer__container container">
+			<div class="footer__container">
 				<div class="footer__copy">
 					&copy; 2022
 				</div>
@@ -154,12 +184,13 @@
 				</div>
 				<div class="footer__logo">
 					<a href="https://rs.school/js/">
-						<img src="img/rs_school_js.svg" alt="logo" width="100" height="70">
+						<img src="./img/rs_school_js.svg" alt="logo" width="100" height="70">
 					</a>
 				</div>
 			</div>
 		</footer>
-
+	</div>
+	<script src="./script.js"></script>
 </body>
 
 </html>
