@@ -6,14 +6,14 @@
 * Tel: +375295124014
 
 ##**About myself:**
-I learn Front-End Development in RSSchool
+I study Front-End Development in RSSchool
 
 ##**Skills:**
 * HTML
 * CSS
 * JavaScript
 * BEM
-* Figma
+* Photoshop / Figma
 * Wordpress
 * Git
 
@@ -48,7 +48,7 @@ function rgb(r, g, b){
 _Freelance_
 
 ##**Education and courses:**
-1. Internet-Marketing (2019)
+1. Digital-Marketing (2019)
 2. HTML Academy (2020)
 3. JS, CSS, HTML video courses on YouTube channel FreelancerLifeStyle (2021)
 
