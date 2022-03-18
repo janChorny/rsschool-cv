@@ -56,5 +56,5 @@ _Freelance_
 * Russian C2
 * Belarusian C2
 * English C2
-* German A2 (updating)
+* German A1 (updating)
 * Spanish A1 (learning)
