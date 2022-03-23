@@ -51,7 +51,7 @@
 				</div>
 				<div class="header__bottom">
 					<div class="header__image">
-						<img src="./img/avatar.jpg" alt="avatar" width="200" height="250">
+						<img src="./img/avatar.webp" alt="avatar" width="200" height="250">
 					</div>
 					<div class="header__description">
 						<h1 class="header__title">
@@ -108,20 +108,20 @@ function rgb(r, g, b){
   if(g == 0) { g = Number(0).toString(16)  + 0}
   if(b == 0) { b = Number(0).toString(16)  + 0}
 
-  if(r > 255){r = 255}
-  if(r < 0){r = 0}
-  if(g > 255){g = 255}
-  if(g < 0){g = 0}
-  if(b > 255){b = 255}
-  if(b < 0){b = 0}
+  if(r &gt; 255){r = 255}
+  if(r &lt; 0){r = 0};
+  if(g &gt; 255){g = 255}
+  if(g &lt; 0){g = 0}
+  if(b &gt; 255){b = 255}
+  if(b &lt; 0){b = 0}
 
   r = r.toString(16).toUpperCase()     
   g = g.toString(16).toUpperCase() 
   b = b.toString(16).toUpperCase()
 
-  if (r.length < 2){ r = 0 + r}
-  if (g.length < 2){ g = 0 + g}
-  if (b.length < 2){ b = 0 + b}
+  if (r.length &lt; 2){ r = 0 + r}
+  if (g.length &lt; 2){ g = 0 + g}
+  if (b.length &lt; 2){ b = 0 + b}
 
   return r + g + b
 };
@@ -169,6 +169,12 @@ function rgb(r, g, b){
 						<li class="languages__item">Spanish A1 (Elementario)</li>
 					</ul>
 				</section>
+				<p>
+					<a href="https://jigsaw.w3.org/css-validator/check/referer">
+						<img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+							alt="Правильный CSS!" />
+					</a>
+				</p>
 			</div>
 		</main>
 
